@@ -1,11 +1,8 @@
 import React from 'react';
-import { Image, View } from 'react-native';
-import styled from 'styled-components/native';
-import { Card } from 'react-native-paper';
 import { SvgXml } from 'react-native-svg';
 import star from '../../../../assets/star';
 import open from '../../../../assets/open';
-import { Spacer } from './spacer/spacer.component';
+import { Spacer } from '../../../components/spacer/spacer.component';
 import { Text } from '../../../components/typography/text.component';
 import {
   RestaurantCard,
